@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AgencyApp.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,16 @@ namespace AgencyApp.Views
 		public Articles ()
 		{
 			InitializeComponent ();
-		}
-	}
+
+            InitializeArticles();
+        }
+
+        private async void InitializeArticles()
+        {
+            GeneralService objService = new GeneralService();
+
+            List<Models.Articles> actionItems = await objService.GetArticles("Admin");
+            ItemsListView.ItemsSource = actionItems;
+        }
+    }
 }

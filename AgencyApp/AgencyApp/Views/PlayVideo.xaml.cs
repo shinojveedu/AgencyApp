@@ -13,14 +13,14 @@ namespace AgencyApp.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class PlayVideo : ContentPage
 	{
-        Item item;
+        Video item;
 
         public PlayVideo()
         {
             InitializeComponent();
         }
 
-        public PlayVideo(Item item)
+        public PlayVideo(Video item)
         {
             InitializeComponent();
             BindingContext = this.item = item;

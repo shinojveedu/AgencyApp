@@ -19,9 +19,11 @@ namespace AgencyApp.Views
 			InitializeComponent ();
 		}
 
-        private void CallNow_ToolbarItem_Clicked(object sender, EventArgs e)
+        private async void CallContactNumber()
         {
-            string numEntry = "9447509487";
+            Services.GeneralService objSer = new Services.GeneralService();
+            string numEntry = await objSer.GetContactNummer("Admin");
+
             try
             {
                 if (numEntry == "")
@@ -39,6 +41,11 @@ namespace AgencyApp.Views
             }
         }
 
+        private void CallNow_ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            CallContactNumber();
+        }
+
         private void AboutUs_ToolbarItem_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AboutUs()
@@ -51,7 +58,7 @@ namespace AgencyApp.Views
         {
             Navigation.PushAsync(new MoneyEducation()
             {
-                Title = "Money Education"
+                Title = "Financial Education"
             });
         }
 

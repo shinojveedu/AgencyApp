@@ -1,7 +1,7 @@
 10
 
 dir
-74
+88
 https://code.speridian.com/svn/Financial_Coach_App/Application/AgencyApp/AgencyApp/AgencyApp.UWP
 https://code.speridian.com/svn/Financial_Coach_App
 
@@ -60,40 +60,6 @@ has-props
 
 5324
 
-App.xaml
-file
-
-
-
-
-2017-09-07T12:06:57.519170Z
-38f96ccb06f5a246c46cd91c02e68110
-2017-08-25T11:06:23.039219Z
-16
-venus.vincent@SPERIDIAN
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-267
-
 AgencyApp.UWP.csproj
 file
 
@@ -127,6 +93,40 @@ venus.vincent@SPERIDIAN
 
 
 7003
+
+App.xaml
+file
+
+
+
+
+2017-09-07T12:06:57.519170Z
+38f96ccb06f5a246c46cd91c02e68110
+2017-08-25T11:06:23.039219Z
+16
+venus.vincent@SPERIDIAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+267
 
 MainPage.xaml
 file
@@ -341,6 +341,9 @@ venus.vincent@SPERIDIAN
 bin
 dir
 
+obj
+dir
+
 AgencyApp.UWP.nuget.targets
 file
 
@@ -374,9 +377,6 @@ venus.vincent@SPERIDIAN
 
 
 1823
-
-obj
-dir
 
 slideout.png
 file

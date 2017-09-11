@@ -22,5 +22,12 @@
             get { return url; }
             set { SetProperty(ref url, value); }
         }
+
+        string imageUrl = string.Empty;
+        public string ImageUrl
+        {
+            get { return imageUrl; }
+            set { SetProperty(ref imageUrl, value); }
+        }
     }
 }

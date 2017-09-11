@@ -2,7 +2,7 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AgencyApp.Views.MoneyEducation"
-            xmlns:pages ="clr-namespace:AgencyApp.Views" BarBackgroundColor="#686767" Padding="3" BarTextColor="White">
+            xmlns:pages ="clr-namespace:AgencyApp.Views" BarBackgroundColor="#f7a46c" Padding="3" BarTextColor="White">
     <TabbedPage.ToolbarItems>
         <ToolbarItem Text ="Call Now"  
                 Priority="0" Order="Secondary" Clicked="CallNow_ToolbarItem_Clicked"  />

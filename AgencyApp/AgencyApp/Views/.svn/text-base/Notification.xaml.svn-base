@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgencyApp.Views.Notification">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="ItemsListView"
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="true">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="30"></RowDefinition>
+                                        <RowDefinition Height="*"></RowDefinition>
+                                        <RowDefinition Height="30"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    
+                                    <StackLayout Grid.Row="0" Grid.Column="0" Margin="10,10,0,0">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="20" />
+                                                <ColumnDefinition Width="300" />
+                                            </Grid.ColumnDefinitions>
+                                            <StackLayout Grid.Row="0" Grid.Column="0" WidthRequest="10">
+                                                <Image Source="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Apps-preferences-desktop-notification-icon.png"></Image>
+                                            </StackLayout>
+                                            <StackLayout Grid.Row="0" Grid.Column="1">
+                                                <Label Text="{Binding Subject}" FontSize="17" TextColor="#F46523" FontAttributes="Bold" Margin="0"></Label>
+                                            </StackLayout>
+                                        </Grid>
+                                    </StackLayout>
+                                    <StackLayout Grid.Row="1" Grid.Column="0" Margin="10,0,0,0">
+                                        <Label Text="{Binding Note}" FontSize="15" TextColor="#4D4A49"></Label>
+                                    </StackLayout>
+                                    <StackLayout Grid.Row="2" Grid.Column="0" Margin="10,0,0,0">
+                                        <Label Text="{Binding Crt_dt}" FontSize="13" TextColor="#afafac"></Label>
+                                    </StackLayout>
+                                </Grid>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

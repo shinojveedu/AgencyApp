@@ -6,6 +6,8 @@
              xmlns:roxv="clr-namespace:Rox;assembly=Rox.Xamarin.Video.Portable">
 
     <roxv:VideoView x:Name="VideoView" AutoPlay="True" LoopPlay="True" ShowController="True" FullScreen="True"
-                    Source="{Binding Url}" />
-    
+                    Source="{Binding Video_FilePath}" />
+
+    <!--<roxv:VideoView x:Name="VideoView" AutoPlay="True" LoopPlay="True" ShowController="True" FullScreen="True"
+                    Source="http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4" />-->
 </ContentPage>

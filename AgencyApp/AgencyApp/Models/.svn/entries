@@ -1,15 +1,15 @@
 10
 
 dir
-74
+88
 https://code.speridian.com/svn/Financial_Coach_App/Application/AgencyApp/AgencyApp/AgencyApp/Models
 https://code.speridian.com/svn/Financial_Coach_App
 
 
 
-2017-09-01T11:48:57.128805Z
-69
-sreenath.premanadhan@SPERIDIAN
+2017-09-11T05:50:16.505640Z
+88
+venus.vincent@SPERIDIAN
 has-props
 
 
@@ -100,10 +100,10 @@ file
 
 
 
-2017-09-07T12:08:09.774058Z
-6c71ef32adc176aad4734c3efe4fc861
-2017-08-25T11:06:23.039219Z
-16
+2017-09-11T05:55:06.979796Z
+56a3157011789affc2ca5c0093f535fc
+2017-09-11T05:50:16.505640Z
+88
 venus.vincent@SPERIDIAN
 
 
@@ -126,7 +126,7 @@ venus.vincent@SPERIDIAN
 
 
 
-548
+738
 
 VideoProperties.cs
 file
@@ -168,10 +168,10 @@ file
 
 
 
-2017-09-07T12:08:09.758432Z
-310885355ef497210aa6ac849ff8d522
-2017-08-25T11:06:23.039219Z
-16
+2017-09-11T05:55:06.981801Z
+1bf99c3a314ee5cb22c7cd73cdc10e38
+2017-09-11T05:50:16.505640Z
+88
 venus.vincent@SPERIDIAN
 
 
@@ -194,7 +194,41 @@ venus.vincent@SPERIDIAN
 
 
 
-945
+4124
+
+NotificationItem.cs
+file
+
+
+
+
+2017-09-11T05:55:06.980799Z
+e7ec384207a0fe480ce9770faa274d83
+2017-09-11T05:50:16.505640Z
+88
+venus.vincent@SPERIDIAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+708
 
 Notification.cs
 file
@@ -229,6 +263,74 @@ sreenath.premanadhan@SPERIDIAN
 
 
 234
+
+Articles.cs
+file
+
+
+
+
+2017-09-11T05:55:06.983808Z
+50e67abd22d76f9f2a72f53badd0d956
+2017-09-11T05:50:16.505640Z
+88
+venus.vincent@SPERIDIAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1300
+
+Video.cs
+file
+
+
+
+
+2017-09-11T05:55:06.984810Z
+ba5e1a62737a653d6c5432e6e0330074
+2017-09-11T05:50:16.505640Z
+88
+venus.vincent@SPERIDIAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1209
 
 CreditorList.cs
 file

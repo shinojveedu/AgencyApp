@@ -1,4 +1,5 @@
 ﻿using AgencyApp.IDependencies;
+using AgencyApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,7 @@ namespace AgencyApp.Views
             //Removing the root page's Navigation bar !!!
             //this = current page
             //NavigationPage.SetHasNavigationBar(this, false);
+           
 
             
         }
@@ -27,23 +29,62 @@ namespace AgencyApp.Views
         protected override void OnAppearing()
         {
             string clientId = "";
+            this.ToolbarItems.Clear();
 
             if (Application.Current.Properties.ContainsKey("clientId"))
             {
                 clientId = Application.Current.Properties["clientId"].ToString();
+
+                //  txtClientId.Text = "CLIENT ID : " + clientId;
+                NavigationPage.SetHasNavigationBar(this, true);
+
+                ToolbarItem itmClient = new ToolbarItem();
+                itmClient.Text = "CLIENT ID : " + clientId;
+                itmClient.Order = ToolbarItemOrder.Primary;
+                itmClient.Priority = 0;
+                this.ToolbarItems.Add(itmClient);
+
+                ToolbarItem itm = new ToolbarItem();
+                itm.Text = "Log Out";
+                itm.Order = ToolbarItemOrder.Secondary;
+                itm.Priority = 1;
+                itm.Clicked += new EventHandler(LogOut_ToolbarItem_Clicked);
+                this.ToolbarItems.Add(itm);
+
+                ToolbarItem itmNot = new ToolbarItem();
+                itmNot.Order = ToolbarItemOrder.Primary;
+                itmNot.Priority = 1;
+                itmNot.Icon = "notification.png";
+                itmNot.Clicked += new EventHandler(Notifications_ToolbarItem_Clicked);
+                this.ToolbarItems.Add(itmNot);
+
             }
-            txtClientId.Text = "CLIENT ID : " + clientId;
+            else
+            {
+                NavigationPage.SetHasNavigationBar(this, false);
+            }
+        }
+
+        private async void Notifications_ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Notification(false)
+            {
+                Title = "Notifications"
+            });
         }
 
         private void LogOut_ToolbarItem_Clicked(object sender, EventArgs e)
         {
             Application.Current.Properties.Remove("clientId");
             OnAppearing();
+           // this.ToolbarItems.Remove(btnLogout);
         }
 
-        private void CallNow_TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private async void CallContactNumber()
         {
-            string numEntry = "9447509487";
+            Services.GeneralService objSer = new Services.GeneralService();
+           string numEntry = await objSer.GetContactNummer("Admin");
+
             try
             {
                 if (numEntry == "")
@@ -61,12 +102,18 @@ namespace AgencyApp.Views
             }
         }
 
+        private void CallNow_TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            CallContactNumber();
+
+        }
+
         private async void MoneyEducation_TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
 
             await Navigation.PushAsync(new MoneyEducation()
             {
-                Title = "Money Education"
+                Title = "Financial Education"
             });
         }
 

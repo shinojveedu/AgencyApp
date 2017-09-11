@@ -1,14 +1,14 @@
 10
 
 dir
-74
+88
 https://code.speridian.com/svn/Financial_Coach_App/Application/AgencyApp/AgencyApp/AgencyApp/Views
 https://code.speridian.com/svn/Financial_Coach_App
 
 
 
-2017-09-01T06:41:51.391229Z
-62
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 has-props
 
@@ -26,50 +26,16 @@ has-props
 
 9715af99-0456-044b-8c0e-49e460b1b480
 
-DashboardView.xaml
-file
-
-
-
-
-2017-09-07T12:08:10.039711Z
-6cd968baeeb2f4216cb0ee17ad95193c
-2017-09-01T06:41:51.391229Z
-62
-venus.vincent@SPERIDIAN
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8655
-
 AboutUs.xaml
 file
 
 
 
 
-2017-09-07T12:08:10.039711Z
-c830158b752abebfb8f2d11d04497cc3
-2017-09-01T06:41:51.391229Z
-62
+2017-09-11T05:55:06.895575Z
+2e0d4dbf86910b59d1412f13c84b08f8
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -92,18 +58,18 @@ venus.vincent@SPERIDIAN
 
 
 
-2553
+2557
 
-MoneyEducation.xaml
+DashboardView.xaml
 file
 
 
 
 
-2017-09-07T12:08:10.055337Z
-696d86d98f2dbdc53e12492c922b9a0e
-2017-09-01T06:41:51.391229Z
-62
+2017-09-11T05:55:06.893568Z
+6455e37e8e82408f5a2898b516e387b9
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -126,7 +92,7 @@ venus.vincent@SPERIDIAN
 
 
 
-978
+9028
 
 DMPProgess.xaml
 file
@@ -162,16 +128,16 @@ venus.vincent@SPERIDIAN
 
 7032
 
-AboutUs.xaml.cs
+MoneyEducation.xaml
 file
 
 
 
 
-2017-09-07T12:08:10.055337Z
-1e763d2e840a70ed27ff594a9b09281d
-2017-09-01T06:41:51.391229Z
-62
+2017-09-11T05:55:06.897578Z
+59e5daaba14a4898a29d9ea10527a70b
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -194,7 +160,7 @@ venus.vincent@SPERIDIAN
 
 
 
-1466
+978
 
 DashboardView.xaml.cs
 file
@@ -202,10 +168,10 @@ file
 
 
 
-2017-09-07T12:08:10.055337Z
-ca3601a68126527cfb6c58b55983b753
-2017-09-01T06:41:51.391229Z
-62
+2017-09-11T05:55:06.899584Z
+e3b5b85841cddeb811a998578be49e70
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -228,18 +194,18 @@ venus.vincent@SPERIDIAN
 
 
 
-2828
+4546
 
-Recommendations.xaml
+AboutUs.xaml.cs
 file
 
 
 
 
-2017-09-07T12:08:10.055337Z
-17eaeac065d0dc6b794cbc1b57e95be4
-2017-09-01T06:41:29.862385Z
-61
+2017-09-11T05:55:06.901590Z
+27076d810929a9b12907fa32a1dd336a
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -262,7 +228,75 @@ venus.vincent@SPERIDIAN
 
 
 
-2147
+1681
+
+Notification.xaml
+file
+
+
+
+
+2017-09-11T05:55:06.903594Z
+57fb882b4d169b57710a252f1e0830be
+2017-09-11T05:49:45.710869Z
+86
+venus.vincent@SPERIDIAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3089
+
+MoneyEducation.xaml.cs
+file
+
+
+
+
+2017-09-11T05:55:06.904597Z
+32ea2cac234c89fc35376bbd7525baaf
+2017-09-11T05:49:45.710869Z
+86
+venus.vincent@SPERIDIAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1704
 
 DMPProgess.xaml.cs
 file
@@ -298,16 +332,16 @@ venus.vincent@SPERIDIAN
 
 965
 
-MoneyEducation.xaml.cs
+Recommendations.xaml
 file
 
 
 
 
-2017-09-07T12:08:10.061492Z
-051c7d6ccfe618354e32b3eb19223780
-2017-09-01T06:41:51.391229Z
-62
+2017-09-11T05:55:06.906604Z
+6cb51e78631f78c850617152016b9be5
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -330,7 +364,7 @@ venus.vincent@SPERIDIAN
 
 
 
-1493
+2149
 
 Videos.xaml
 file
@@ -338,10 +372,10 @@ file
 
 
 
-2017-09-07T12:08:10.061492Z
-63ca7374a49a873d40ade02b3bb9228a
-2017-08-25T11:06:23.039219Z
-16
+2017-09-11T05:55:06.908611Z
+7579b282d4fae6a020e68d4c6f4c2989
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -364,7 +398,41 @@ venus.vincent@SPERIDIAN
 
 
 
-1382
+3080
+
+Notification.xaml.cs
+file
+
+
+
+
+2017-09-11T05:55:06.910613Z
+fe97c2d81ea76a85c57045b2207968c7
+2017-09-11T05:49:45.710869Z
+86
+venus.vincent@SPERIDIAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1591
 
 Recommendations.xaml.cs
 file
@@ -400,50 +468,16 @@ venus.vincent@SPERIDIAN
 
 994
 
-MyFinances.xaml
-file
-
-
-
-
-2017-09-07T12:08:10.024087Z
-278ecbedb8f098413a723639e303108f
-2017-09-01T06:41:51.391229Z
-62
-venus.vincent@SPERIDIAN
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2321
-
 PlayVideo.xaml
 file
 
 
 
 
-2017-09-07T12:08:10.024087Z
-fa9e35cd5fca90555632aa5da2ea8a36
-2017-08-25T11:06:23.039219Z
-16
+2017-09-11T05:55:06.913621Z
+89dbd26418f88654d41794b6ee48c628
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -466,7 +500,41 @@ venus.vincent@SPERIDIAN
 
 
 
-523
+753
+
+MyFinances.xaml
+file
+
+
+
+
+2017-09-11T05:55:06.912618Z
+4ed792fe8ae9eff8d7a36f0bf9b58408
+2017-09-11T05:49:45.710869Z
+86
+venus.vincent@SPERIDIAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2325
 
 Videos.xaml.cs
 file
@@ -474,10 +542,10 @@ file
 
 
 
-2017-09-07T12:08:10.024087Z
-455a27aed278aea9da2e02d5d43890f8
-2017-08-25T11:06:23.039219Z
-16
+2017-09-11T05:55:06.915626Z
+4d8cb30a9da0e8bfd881c96b17520450
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -500,7 +568,7 @@ venus.vincent@SPERIDIAN
 
 
 
-914
+1232
 
 MyActionPlan.xaml
 file
@@ -508,10 +576,10 @@ file
 
 
 
-2017-09-07T12:08:10.024087Z
-c595313671524b19e9d2ebd1d900490b
-2017-09-01T06:41:51.391229Z
-62
+2017-09-11T05:55:06.917632Z
+37863c04cc1c9dac962988407e5ad865
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -534,7 +602,7 @@ venus.vincent@SPERIDIAN
 
 
 
-2222
+2243
 
 PlayVideo.xaml.cs
 file
@@ -542,10 +610,10 @@ file
 
 
 
-2017-09-07T12:08:10.024087Z
-5f8675ed766dc2d0086ece0f62a4a398
-2017-08-25T11:06:23.039219Z
-16
+2017-09-11T05:55:06.921643Z
+4d694649021e5ee403a7587929499f62
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -568,7 +636,7 @@ venus.vincent@SPERIDIAN
 
 
 
-596
+598
 
 MyFinances.xaml.cs
 file
@@ -576,10 +644,10 @@ file
 
 
 
-2017-09-07T12:08:10.024087Z
-10f5d2a3141a1d9881ccbb7d194e7fe7
-2017-09-01T06:41:51.391229Z
-62
+2017-09-11T05:55:06.919637Z
+9543ef7221b26f0162ae304c456aabed
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -602,7 +670,7 @@ venus.vincent@SPERIDIAN
 
 
 
-2447
+2662
 
 MyActionPlan.xaml.cs
 file
@@ -644,10 +712,10 @@ file
 
 
 
-2017-09-07T12:08:10.039711Z
-71329d9a338004c6b0d8967d3cf90776
-2017-09-01T06:41:51.391229Z
-62
+2017-09-11T05:55:06.923648Z
+2653447e204aa2ac4e9b26fee6545c65
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -670,7 +738,7 @@ venus.vincent@SPERIDIAN
 
 
 
-5382
+5852
 
 Articles.xaml
 file
@@ -678,10 +746,10 @@ file
 
 
 
-2017-09-07T12:08:10.039711Z
-21fa92ece59388b5f1635b9ff48853aa
-2017-08-25T11:06:23.039219Z
-16
+2017-09-11T05:55:06.925653Z
+ba7ac674bb6c08a1ab8d1fff6ee6715a
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -704,7 +772,7 @@ venus.vincent@SPERIDIAN
 
 
 
-391
+3369
 
 MyFinancesDashboard.xaml.cs
 file
@@ -712,10 +780,10 @@ file
 
 
 
-2017-09-07T12:08:10.039711Z
-358f5c45c3a7287873598f5806d3d451
-2017-09-01T06:41:51.391229Z
-62
+2017-09-11T05:55:06.927658Z
+681cf4ca71f04a43253b4a1dac3bf288
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -738,7 +806,7 @@ venus.vincent@SPERIDIAN
 
 
 
-1159
+2456
 
 Articles.xaml.cs
 file
@@ -746,10 +814,10 @@ file
 
 
 
-2017-09-07T12:08:10.039711Z
-8c0f47f2a8e522d039a5767f631a89c1
-2017-08-25T11:06:23.039219Z
-16
+2017-09-11T05:55:06.930666Z
+e7e42d9316efe20bead3f1455a818551
+2017-09-11T05:49:45.710869Z
+86
 venus.vincent@SPERIDIAN
 
 
@@ -772,5 +840,5 @@ venus.vincent@SPERIDIAN
 
 
 
-374
+727
 

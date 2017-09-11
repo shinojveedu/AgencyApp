@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using AgencyApp.Models;
+using AgencyApp.Services;
 
 namespace AgencyApp.Views
 {
@@ -19,12 +20,20 @@ namespace AgencyApp.Views
         {
             InitializeComponent();
 
-            BindingContext = this.videosViewModel = new VideosViewModel();
+            GetVideo();
+            //BindingContext = this.videosViewModel = new VideosViewModel();
         }
 
+        private async void GetVideo()
+        {
+            GeneralService objService = new GeneralService();
+            List<Models.Video> actionItems = await objService.GetVideos("Admin");
+            ItemsListView.ItemsSource = actionItems;
+
+        }
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
-            var item = args.SelectedItem as Item;
+            var item = args.SelectedItem as Video;
             if (item == null)
                 return;
 

@@ -5,7 +5,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text ="Call Now"  
                 Priority="0" Order="Secondary" Clicked="CallNow_ToolbarItem_Clicked"  />
-        <ToolbarItem Text ="Money Education"  
+        <ToolbarItem Text ="Financial Education"  
               Priority="1" Order="Secondary" Clicked="MoneyEducation_ToolbarItem_Clicked" />
         <ToolbarItem Text ="About Us"  
               Priority="2" Order="Secondary" Clicked="AboutUs_ToolbarItem_Clicked" />
