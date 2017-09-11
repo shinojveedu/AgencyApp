@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgencyApp.Views.MyFinances">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text ="Call Now"  
+                Priority="0" Order="Secondary" Clicked="CallNow_ToolbarItem_Clicked"  />
+        <ToolbarItem Text ="Money Education"  
+              Priority="1" Order="Secondary" Clicked="MoneyEducation_ToolbarItem_Clicked" />
+        <ToolbarItem Text ="About Us"  
+              Priority="2" Order="Secondary" Clicked="AboutUs_ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="#fce9c4">
+        <Frame OutlineColor="Black" Margin="20" CornerRadius="10">
+            <StackLayout>
+                <StackLayout VerticalOptions="Start"  BackgroundColor="#fff" Margin="7,0">
+                    <Label Text="Client ID" Margin="15,7,0,0" FontAttributes="Bold" TextColor="#F46523">
+                            <Label.FontSize>17</Label.FontSize>
+                    </Label>
+                    <Entry x:Name="txtClientId">
+
+                    </Entry>
+                    <Label Text="SSN (Last 4 Digit)" Margin="15,0,7,0" FontAttributes="Bold" TextColor="#F46523">
+                            <Label.FontSize>17</Label.FontSize>
+                    </Label>
+                    <Entry x:Name="txtSsn">
+
+                    </Entry>
+                </StackLayout>
+                <StackLayout VerticalOptions="Center">
+                    <Button Clicked="Proceed_Button_Clicked" Margin="7,0,7,0" BorderRadius="3">
+                        <Button.TextColor>#FFF</Button.TextColor>
+                        <Button.FontSize>20</Button.FontSize>
+                        <Button.FontAttributes>Bold</Button.FontAttributes>
+                        <Button.Text>PROCEED</Button.Text>
+                        <Button.BackgroundColor>#F46523</Button.BackgroundColor>
+                    </Button>
+                </StackLayout>
+                <StackLayout VerticalOptions="End">
+
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Financial_Coach_App/!svn/ver/69/Application/AgencyApp/AgencyApp/AgencyApp/Services
+END
+GeneralService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Financial_Coach_App/!svn/ver/69/Application/AgencyApp/AgencyApp/AgencyApp/Services/GeneralService.cs
+END
+IDataStore.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Financial_Coach_App/!svn/ver/16/Application/AgencyApp/AgencyApp/AgencyApp/Services/IDataStore.cs
+END
+MockDataStore.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Financial_Coach_App/!svn/ver/16/Application/AgencyApp/AgencyApp/AgencyApp/Services/MockDataStore.cs
+END

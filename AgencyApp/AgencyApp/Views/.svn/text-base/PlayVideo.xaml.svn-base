@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgencyApp.Views.PlayVideo"
+             Title="{Binding Text}"
+             xmlns:roxv="clr-namespace:Rox;assembly=Rox.Xamarin.Video.Portable">
+
+    <roxv:VideoView x:Name="VideoView" AutoPlay="True" LoopPlay="True" ShowController="True" FullScreen="True"
+                    Source="{Binding Url}" />
+    
+</ContentPage>

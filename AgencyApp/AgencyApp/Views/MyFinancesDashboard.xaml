@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgencyApp.Views.MyFinancesDashboard">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#fce9c4">
+
+            <Label Text="Financial Items">
+                <Label.TextColor>#4D4A49</Label.TextColor>
+                <Label.FontAttributes>Bold</Label.FontAttributes>
+                <Label.FontSize>25</Label.FontSize>
+                <Label.Margin>20,20,0,0</Label.Margin>
+            </Label>
+            <StackLayout BackgroundColor="#91908f" HeightRequest="1" Margin="20,5,20,10"></StackLayout>
+        
+
+            <Frame CornerRadius="10" OutlineColor="Black" Margin="15" BackgroundColor="#fff">
+                <StackLayout  HeightRequest="60"  Margin="-16">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="MyAction_TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30" />
+                            <ColumnDefinition Width="300" />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Row="0" Grid.Column="0" WidthRequest="10">
+                            <Image Source="round.png" Margin="10,18,0,0"></Image>
+                        </StackLayout>
+                        <StackLayout Grid.Row="0" Grid.Column="1">
+                            <Label Text="My Action Plan" Margin="5,15,0,0" FontSize="20" FontAttributes="Bold" TextColor="#F46523"></Label>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>  
+            </Frame>
+            <Frame CornerRadius="10" OutlineColor="Black" Margin="15,-15,15,0" BackgroundColor="#fff">
+                <StackLayout  HeightRequest="60"  Margin="-16">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="DMPProcess_TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30" />
+                            <ColumnDefinition Width="300" />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Row="0" Grid.Column="0" WidthRequest="10">
+                            <Image Source="round.png" Margin="10,18,0,0"></Image>
+                        </StackLayout>
+                        <StackLayout Grid.Row="0" Grid.Column="1">
+                            <Label Text="DMP Progess" Margin="5,15,0,0" FontSize="20" FontAttributes="Bold" TextColor="#F46523"></Label>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="10" OutlineColor="Black" Margin="15,0,15,0" BackgroundColor="#fff">
+                <StackLayout  HeightRequest="60"  Margin="-16">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Recommendations_TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30" />
+                            <ColumnDefinition Width="300" />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Row="0" Grid.Column="0" WidthRequest="10">
+                            <Image Source="round.png" Margin="10,18,0,0"></Image>
+                        </StackLayout>
+                        <StackLayout Grid.Row="0" Grid.Column="1">
+                            <Label Text="Recommendations" Margin="5,15,0,0" FontSize="20" FontAttributes="Bold" TextColor="#F46523"></Label>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+            <!--<StackLayout HeightRequest="60" BackgroundColor="#fff" Margin="7,0,7,7">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="DMPProcess_TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40" />
+                        <ColumnDefinition Width="300" />
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Grid.Row="0" Grid.Column="0" WidthRequest="10">
+                        <Image Source="round.png" Margin="10,14,0,0"></Image>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="1">
+                        <Label Text="DMP Progess" TextColor="Black" Margin="5,15,0,0" FontSize="20" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

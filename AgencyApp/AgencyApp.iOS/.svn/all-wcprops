@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Financial_Coach_App/!svn/ver/66/Application/AgencyApp/AgencyApp/AgencyApp.iOS
+END
+AgencyApp.iOS.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Financial_Coach_App/!svn/ver/36/Application/AgencyApp/AgencyApp/AgencyApp.iOS/AgencyApp.iOS.csproj
+END
+AppDelegate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Financial_Coach_App/!svn/ver/16/Application/AgencyApp/AgencyApp/AgencyApp.iOS/AppDelegate.cs
+END
+LaunchScreen.storyboard
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Financial_Coach_App/!svn/ver/16/Application/AgencyApp/AgencyApp/AgencyApp.iOS/LaunchScreen.storyboard
+END
+packages.config
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Financial_Coach_App/!svn/ver/36/Application/AgencyApp/AgencyApp/AgencyApp.iOS/packages.config
+END
+Entitlements.plist
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Financial_Coach_App/!svn/ver/16/Application/AgencyApp/AgencyApp/AgencyApp.iOS/Entitlements.plist
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Financial_Coach_App/!svn/ver/16/Application/AgencyApp/AgencyApp/AgencyApp.iOS/Info.plist
+END
+Main.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Financial_Coach_App/!svn/ver/16/Application/AgencyApp/AgencyApp/AgencyApp.iOS/Main.cs
+END
+AgencyApp.iOS.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Financial_Coach_App/!svn/ver/61/Application/AgencyApp/AgencyApp/AgencyApp.iOS/AgencyApp.iOS.csproj.user
+END

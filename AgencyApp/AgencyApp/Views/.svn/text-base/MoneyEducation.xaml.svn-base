@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgencyApp.Views.MoneyEducation"
+            xmlns:pages ="clr-namespace:AgencyApp.Views" BarBackgroundColor="#686767" Padding="3" BarTextColor="White">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text ="Call Now"  
+                Priority="0" Order="Secondary" Clicked="CallNow_ToolbarItem_Clicked"  />
+        <ToolbarItem Text ="My Finances"  
+              Priority="1" Order="Secondary" Clicked="MyFinances_ToolbarItem_Clicked" />
+        <ToolbarItem Text ="About Us"  
+              Priority="2" Order="Secondary" Clicked="AboutUs_ToolbarItem_Clicked" />
+    </TabbedPage.ToolbarItems>
+    <!--Pages can be added as references or inline-->
+    <pages:Videos Title="Videos"></pages:Videos>
+    <pages:Articles Title="Articles"></pages:Articles>
+</TabbedPage>
